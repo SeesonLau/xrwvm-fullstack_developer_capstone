@@ -151,3 +151,4 @@ def registration(request):
     else:
         data = {"userName": username, "error": "Already Registered"}
         return JsonResponse(data)
+    

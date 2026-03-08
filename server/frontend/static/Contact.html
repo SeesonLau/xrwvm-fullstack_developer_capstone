@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Georgia, serif;
+    }
+
+    .contact-header {
+      background-color: darkturquoise;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .contact-header h1 {
+      font-size: 2.8rem;
+      font-weight: bold;
+    }
+
+    .contact-header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    .contact-card {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-top: 40px;
+    }
+
+    .contact-card h4 {
+      color: darkturquoise;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .contact-card p {
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .icon-circle {
+      width: 55px;
+      height: 55px;
+      background-color: darkturquoise;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+
+    .icon-circle span {
+      font-size: 1.5rem;
+    }
+
+    .map-placeholder {
+      background: #e0f7f7;
+      border-radius: 12px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: darkturquoise;
+      font-size: 1rem;
+      margin-top: 20px;
+      border: 2px dashed darkturquoise;
+    }
+
+    footer {
+      background-color: darkturquoise;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+  <div class="container-fluid">
+    <h2 style="padding-right: 5%; color: white;">Dealerships</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" style="font-size: larger; color: white;" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="font-size: larger; color: white;" href="/about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" style="font-size: larger; color: white; font-weight: bold;" href="/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<div class="contact-header">
+  <h1>Contact Us</h1>
+  <p>We'd love to hear from you. Reach out to any of our locations across the country.</p>
+</div>
+
+<!-- Contact Info Cards -->
+<div class="container">
+  <div class="row">
+
+    <!-- Headquarters -->
+    <div class="col-md-4">
+      <div class="contact-card text-center">
+        <div class="icon-circle mx-auto">
+          <span>🏢</span>
+        </div>
+        <h4>Headquarters</h4>
+        <p>
+          Best Cars Dealership Inc.<br>
+          1200 Auto Drive, Suite 300<br>
+          Chicago, IL 60601<br>
+          United States
+        </p>
+      </div>
+    </div>
+
+    <!-- Phone & Email -->
+    <div class="col-md-4">
+      <div class="contact-card text-center">
+        <div class="icon-circle mx-auto">
+          <span>📞</span>
+        </div>
+        <h4>Phone & Email</h4>
+        <p>
+          Toll-Free: 1-800-BESTCAR<br>
+          Local: (312) 555-0192<br>
+          Fax: (312) 555-0193<br>
+          Email: support@bestcars.com<br>
+          Sales: sales@bestcars.com
+        </p>
+      </div>
+    </div>
+
+    <!-- Business Hours -->
+    <div class="col-md-4">
+      <div class="contact-card text-center">
+        <div class="icon-circle mx-auto">
+          <span>🕐</span>
+        </div>
+        <h4>Business Hours</h4>
+        <p>
+          Monday - Friday: 8:00 AM - 7:00 PM<br>
+          Saturday: 9:00 AM - 5:00 PM<br>
+          Sunday: 10:00 AM - 3:00 PM<br>
+          Holidays: Closed
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Regional Offices -->
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <div class="contact-card">
+        <h4>East Coast Regional Office</h4>
+        <p>
+          📍 450 Fifth Avenue, New York, NY 10018<br>
+          📞 (212) 555-0847<br>
+          ✉️ eastcoast@bestcars.com
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="contact-card">
+        <h4>West Coast Regional Office</h4>
+        <p>
+          📍 8800 Sunset Blvd, Los Angeles, CA 90069<br>
+          📞 (310) 555-0234<br>
+          ✉️ westcoast@bestcars.com
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Map placeholder -->
+  <div class="map-placeholder">
+    📍 Find your nearest Best Cars dealership at one of our 50 locations nationwide
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 Best Cars Dealership Inc. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
